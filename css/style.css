@@ -1,0 +1,160 @@
+/* shared styles */
+body {
+    font-family: "Merriweather", serif;
+
+}
+
+/* hero banner section start */
+.hero-image {
+    background-image: url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.hero-content {
+    color: white;
+    text-align: center;
+}
+
+.hero-title-1 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 5px;
+
+}
+
+.hero-title-2 {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+
+/* hero banner section end */
+
+
+/* main section style start */
+main {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* all catagories style start */
+.all-catagory {
+    text-align: center;
+
+}
+
+.discount {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.discount-description {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+.catagory-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+
+}
+
+/* all catagories style end */
+
+/* party section style start */
+.party-section {
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1320px;
+    height: 600px;
+    margin-top: 120px;
+
+}
+
+.party-section {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+
+.party-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+
+.party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.party-2024 {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    width: 319.83px;
+    height: 464.662px;
+}
+
+.party-button {
+    background-color: transparent;
+    color: #FFF;
+    margin-left: 100px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+}
+
+
+/* party section style end */
+.party-time {
+    text-align: center;
+    margin-top: 120px;
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+
+}
+
+.party-time-button {
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+
+}
+
+/* main section style end */
