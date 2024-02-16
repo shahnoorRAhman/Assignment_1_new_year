@@ -4,6 +4,10 @@ body {
 
 }
 
+span {
+    color: #F00;
+}
+
 /* hero banner section start */
 .hero-image {
     background-image: url(../images/Banner\ Image.png);
@@ -90,6 +94,10 @@ main {
 
 }
 
+.party-content {
+    margin-left: 125px;
+}
+
 .party-section {
     display: flex;
     /* justify-content: center; */
@@ -132,8 +140,6 @@ main {
     border: none;
 }
 
-
-/* party section style end */
 .party-time {
     text-align: center;
     margin-top: 120px;
@@ -154,7 +160,250 @@ main {
     font-style: normal;
     font-weight: 700;
     border: none;
+    margin-left: 120px;
 
 }
+
+/* party section style end */
+
+
+/* best offers styles start */
+.best-offers {
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.best-offers-title-1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.best-offers-title-2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.best-offers-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.best-offers-img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.offer-year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.best-offers-content-2 {
+    margin-left: 100px;
+}
+
+/* best offers styles end */
+
+/* holidays sale styles start */
+.holiday-sales {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.holiday-sales-title-1 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+.holiday-sales-title-2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 30px;
+
+}
+
+.holiday-sales-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.holiday-sales-img {
+    margin-top: 65px;
+    display: flex;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 1320px 230px;
+}
+
+/* holidays sale styles end */
+
+/* best gift section style start */
+.best-gift-container {
+    margin-top: 120px;
+}
+
+.best-gift-title-1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.best-gift-title-2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.best-gift-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.portfolio-img {
+    display: grid;
+    margin-top: 50px;
+}
+
+/* best gift section style end */
+
+/* newsletter section style start */
+.newsletter-container {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.newsletter-container {
+    text-align: center;
+    margin-top: 120px;
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.newsletter-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+
+}
+
+.newsletter-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+#newsletter-email-input {
+    border-radius: 50px;
+    background: #FFF;
+    padding: 25px 260px 25px 30px;
+    border: none;
+}
+
+#newsletter-submit {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 24px 56px;
+    border: none;
+
+}
+
+/* newsletter section style end */
+
+/* footer section style start */
+footer {
+    margin-top: 80px;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-about {
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    justify-content: space-between;
+    margin: 80px 140px;
+
+
+}
+
+.social-medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 0;
+
+}
+
+.copyright {
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    justify-content: space-between;
+    margin: 80px 140px;
+}
+
+hr {
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* footer section style end */
 
 /* main section style end */
